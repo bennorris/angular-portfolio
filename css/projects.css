@@ -1,0 +1,73 @@
+.projects-row {
+	display: flex;
+	align-items: center;
+}
+
+.projects-row .col-md-8 {
+	overflow: hidden;
+	text-align: center;
+}
+
+.projects-row .col-md-2 {
+	text-align: center;
+}
+
+.arrow {
+	font-size: 50px;
+	background-color: transparent;
+	border: none;
+}
+
+.arrow:hover {
+	color: blue;
+}
+
+.image-box {
+	height: 550px;
+}
+
+.image-box img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.image-header {
+	text-align: center;
+}
+
+.more-info-buttons {
+	text-align: center;
+	font-size: 40px;
+}
+
+.more-info-buttons a  {
+	color: black;
+}
+
+.more-info-buttons a:hover {
+	color: blue;
+}
+
+.more-info {
+	text-align: center;
+	padding-left: 10%;
+	padding-right: 10%;
+	background-color: slategray;
+	margin-top: 3%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+
+.more-info span {
+	font-weight: bold;
+}
+
+.project-section h1 {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.project-section .more-info {
+	font-family: 'Quattrocento', serif;
+	font-size: 25px;
+}

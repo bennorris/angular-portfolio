@@ -1,0 +1,19 @@
+#menu-bar {
+	position: fixed;
+	width: 100%;
+	background: url(images/congruent_outline.png);
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 2.5em; font-size: 3.1vw;
+	color: black;
+	text-align: center;
+}
+
+.menu-list {
+	color: white;
+	font-size: 0.75em;
+	text-align: center;
+}
+
+.menu-list:hover {
+	color: yellow;
+}

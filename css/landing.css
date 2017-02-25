@@ -1,0 +1,107 @@
+.landing-page-container div { 
+  width: 50%;
+  height: 80%;
+  float: left; }
+
+#div1 {
+  background: #EEEEEE;
+  text-align:center;
+  font-family: 'Allerta Stencil', sans-serif;
+  color:black;
+}
+
+#div1:hover {
+  background: #FF5722;
+  cursor: pointer;
+}
+
+#div2 {
+  background: #424242;
+  color: white;
+  font-family: 'Allerta Stencil', sans-serif;
+
+  text-align:center;
+}
+
+#div2:hover {
+  background: #0D47A1;
+  cursor: pointer;
+ }
+
+#div3 {
+  width: 100%;
+  height: 20%;
+  background: #212121;
+  color: white;
+  text-align:center;
+  font-family: 'Allerta Stencil', sans-serif;
+
+}
+
+/*#div3:hover {
+  background: #1B5E20
+}*/
+
+#div4 {
+  background: #BDBDBD;
+  color: white;
+  text-align:center;
+}
+
+#div4:hover {
+  background: #B71C1C;
+}
+
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -100px;
+}
+
+
+
+.landing-h {
+    display: flex;
+   justify-content:center;
+   align-content:center;
+   flex-direction:column;
+
+}
+
+#parent {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: none;
+}
+
+#child {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 30%;
+    margin: auto;
+}
+
+#child1 {
+  color:white;
+}
+
+#child2 {
+  color:black;
+
+}
+
+.img-div {
+  width: auto;
+  height: auto;
+}
+
+i {
+  margin-right: 2%;
+}

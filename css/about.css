@@ -1,0 +1,14 @@
+.circle-container {
+  position: relative;
+  display: inline-block;
+  color: #999;
+  font-size: 20px;
+  text-align: center;
+}
+
+.circle-container img {
+  position: absolute;
+  max-width: 100px;
+  max-height: 100px;
+  background: white;
+}
