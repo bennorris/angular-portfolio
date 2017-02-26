@@ -18,4 +18,5 @@ angular
               templateUrl: 'js/app/templates/about.html',
               controller: 'AboutController'
             })
+          
     });

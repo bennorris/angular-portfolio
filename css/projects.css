@@ -115,8 +115,13 @@
 	cursor: pointer;
 }
 
+#top {
+	padding-top: 2%;
+}
+
 #top h1 {
 	color: white;
+	display: inline;
 }
 
 .all-projects-container {
