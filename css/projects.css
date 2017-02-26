@@ -1,11 +1,13 @@
 .projects-row {
 	display: flex;
 	align-items: center;
+	min-height: 500px;
 }
 
 .projects-row .col-md-8 {
 	overflow: hidden;
-	text-align: center;
+	align-items: center;
+	display: flex;
 }
 
 .projects-row .col-md-2 {
@@ -16,10 +18,11 @@
 	font-size: 50px;
 	background-color: transparent;
 	border: none;
+	color: white;
 }
 
 .arrow:hover {
-	color: blue;
+	color: #E65100;
 }
 
 .image-box {
@@ -29,6 +32,7 @@
 .image-box img {
 	max-width: 100%;
 	max-height: 100%;
+	border: 5px solid white;
 }
 
 .image-header {
@@ -41,21 +45,41 @@
 }
 
 .more-info-buttons a  {
-	color: black;
+	color: white;
+	/*background-color: #E65100;
+	border-radius: 50%;
+	padding: 3px;*/
 }
 
 .more-info-buttons a:hover {
-	color: blue;
+	color: #E65100;
+	/*background-color: white;
+	border-radius: 50%;
+	padding: 3px;*/
+}
+
+.more-info-buttons i {
+	background-color: #E65100;
+	border-radius: 25%;
+	padding: 0.5%;
+}
+
+.more-info-buttons i:hover {
+	color: #E65100;
+	background-color: white;
+	cursor: pointer;
 }
 
 .more-info {
 	text-align: center;
-	padding-left: 10%;
-	padding-right: 10%;
-	background-color: slategray;
-	margin-top: 3%;
+	padding-left: 15%;
+	padding-right: 15%;
+	background-color: rgba(0, 0, 0, 0.5);
 	padding-top: 2%;
 	padding-bottom: 2%;
+  color: white;
+  border-radius: 20px;
+	border: 5px solid #E65100;
 }
 
 
@@ -70,4 +94,25 @@
 .project-section .more-info {
 	font-family: 'Quattrocento', serif;
 	font-size: 25px;
+}
+
+.menu-bar {
+	font-size: 30px;
+	padding-left: 2%;
+	padding-top: 0.5%;
+	color: white;
+}
+
+.menu-bar i {
+	position: fixed;
+	z-index: 1;
+}
+
+.fa-bars:hover {
+	color: #E65100;
+	cursor: pointer;
+}
+
+#top h1 {
+	color: white;
 }
