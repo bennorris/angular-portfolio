@@ -1,6 +1,48 @@
 body {
-  background: url("../img/tv.jpg");
+  /*background: url("../img/tv.jpg");*/
+  /*background-repeat: no-repeat;  */
+  /*background-size: cover;*/
+  /*background-color: white;*/
+}
+/*
+body.home {
+  background: url("../img/cactus.jpg");
   background-repeat: no-repeat;;
   background-size: cover;
-  /*background-color: white;*/
+}*/
+
+.landing-cover {
+  height: 100%;
+}
+
+.home-page {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+.landing-content {
+  /*font-family: 'Raleway', sans-serif;*/
+  font-family: 'Inknut Antiqua', serif;
+  padding-top: 5%;
+  font-size: 50px;
+  margin-bottom:5%;
+  max-height: 100%;
+  display: inline-block;
+}
+
+.landing-content a {
+  text-decoration: none;
+  color: black;
+}
+
+.intro-project-box:hover a, .intro-ben-box:hover a, .intro-talk-box:hover a{
+  color: white;
+  text-decoration: none;
+}
+
+.intro-ben-box:hover, .intro-talk-box:hover, .intro-project-box:hover  {
+    background-color: #E65100;
+    cursor: pointer;
+    color:white;
 }

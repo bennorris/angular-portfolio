@@ -42,6 +42,8 @@
 .more-info-buttons {
 	text-align: center;
 	font-size: 40px;
+	margin-bottom: 10%;
+	margin-top: 1%;
 }
 
 .more-info-buttons a  {
@@ -58,15 +60,15 @@
 	padding: 3px;*/
 }
 
-.more-info-buttons i {
+/*.more-info-buttons i {
 	background-color: #E65100;
 	border-radius: 25%;
 	padding: 0.5%;
-}
+}*/
 
 .more-info-buttons i:hover {
 	color: #E65100;
-	background-color: white;
+	/*background-color: white;*/
 	cursor: pointer;
 }
 
@@ -115,4 +117,8 @@
 
 #top h1 {
 	color: white;
+}
+
+.all-projects-container {
+	height: 100%;
 }

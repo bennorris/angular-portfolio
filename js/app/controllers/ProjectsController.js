@@ -22,7 +22,7 @@ function ProjectsController($scope, $location, $anchorScroll) {
   $scope.toggleInfo = false;
   $scope.currentIndex = 0;
   $scope.showImage = true;
-
+  $scope.bodyImage = {background: "url(" + '../img/tv.jpg' + ") no-repeat fixed center center  / cover "};
 
   $scope.toggleMoreInfo = function(id) {
     if ($scope.toggleInfo === false) {
