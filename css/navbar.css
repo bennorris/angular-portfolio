@@ -1,19 +1,33 @@
-#menu-bar {
-	position: fixed;
-	width: 100%;
-	background: url(images/congruent_outline.png);
-	font-family: 'Josefin Sans', sans-serif;
-	font-size: 2.5em; font-size: 3.1vw;
-	color: black;
-	text-align: center;
-}
-
-.menu-list {
+#nav-box {
+	font-size: 60px;
+	padding-left: 2%;
+	padding-top: 0.5%;
 	color: white;
-	font-size: 0.75em;
-	text-align: center;
+	}
+
+#nav-box i {
+	position: fixed;
+	z-index: 1;
 }
 
-.menu-list:hover {
-	color: yellow;
+.drop-down-menu {
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	display: inline-block;
+	position: fixed;
+	font-size: 25px;
+}
+
+.drop-down-menu ul {
+	list-style: none;
+	padding-top: 15%;
+}
+
+.drop-down-menu a {
+	color: white;
+}
+
+.drop-down-menu a:hover {
+	color: #E65100;
+	text-decoration: none;
 }
